@@ -1,11 +1,14 @@
 # pathlight-ventures/tap
 
-Homebrew tap for the `onhand` command, the OnHand CLI published to npm as `@onhand-mcp/cli`.
-
-Once a release is published:
+Homebrew tap for the OnHand CLI, published on npm as `@onhand-mcp/cli`. Installing the `onhand` formula installs that CLI.
 
 ```bash
 brew install pathlight-ventures/tap/onhand
 ```
 
-The `Formula/onhand.rb` formula is added when the first npm release is live, so this tap does not install a package until then.
+Or tap first, then install:
+
+```bash
+brew tap pathlight-ventures/tap
+brew install onhand
+```
